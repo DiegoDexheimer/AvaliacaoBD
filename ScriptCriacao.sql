@@ -43,7 +43,7 @@ CREATE TABLE Playlists (
     FOREIGN KEY (usuario_id) REFERENCES Usuarios(id) ON DELETE CASCADE
 );
 
-CREATE TABLE Playlist_Musicas (
+CREATE TABLE PlaylistMusicas (
     playlist_id INT,
     musica_id INT,
     data_adicao TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
