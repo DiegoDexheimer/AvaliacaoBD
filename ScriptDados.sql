@@ -87,7 +87,8 @@ VALUES
 ('Pop Hits', 2),
 ('Músicas para Relaxar', 3),
 ('Hip Hop Vibes', 4),
-('Country Favorites', 5);
+('Country Favorites', 5),
+('Playlist foda do Diego', 6);
 
 INSERT INTO PlaylistMusicas (playlist_id, musica_id)
 VALUES 
@@ -103,7 +104,22 @@ VALUES
 (5, 2),
 (1, 6),
 (2, 7),
-(3, 8);
+(3, 8),
+(6, 26),
+(6, 27),
+(6, 28),
+(6, 29),
+(6, 30),
+(6, 31),
+(6, 32),
+(6, 33),
+(6, 34),
+(6, 35),
+(6, 36),
+(6, 37),
+(6, 38),
+(6, 39),
+(6, 40);
 
 INSERT INTO Avaliacoes (usuario_id, musica_id, nota, comentario)
 VALUES 
