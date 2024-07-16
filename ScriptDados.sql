@@ -110,12 +110,7 @@ VALUES
 (2, 22, 5, 'Fantástica.'),
 (3, 23, 4, 'Muito boa.'),
 (4, 24, 5, 'Ótima música.'),
-(5, 25, 4, 'Adorei.'),
-(1, 26, 5, 'Excelente!'),
-(2, 27, 4, 'Muito boa.'),
-(3, 28, 3, 'Legal.'),
-(4, 29, 5, 'Adorei.'),
-(5, 30, 4, 'Ótima música.');
+(5, 25, 4, 'Adorei.');
 
 INSERT INTO Pagamentos (usuario_id, quantia, data_pagamento, tipo_assinatura)
 VALUES 
