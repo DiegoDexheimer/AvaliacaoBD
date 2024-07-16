@@ -1,5 +1,5 @@
 # AvaliacaoBD
-Atividade em dupla referente a: https://gregarious-grey-2e9.notion.site/Banco-2-Trabalho-em-duplas-8401121678bb48e691e3ebaa562ec135
+Atividade em dupla do Diego Dexheimer e Eduardo Rigon
 <br />
 <br />
 <div align="center">
