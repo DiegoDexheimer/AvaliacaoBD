@@ -5,6 +5,7 @@ VALUES
 ('Carlos Oliveira', 'carlos.oliveira@example.com', 'senha123', 'Gratuita'),
 ('Ana Santos', 'ana.santos@example.com', 'senha123', 'Premium'),
 ('Lucas Pereira', 'lucas.pereira@example.com', 'senha123', 'Gratuita');
+('Diego Dex', 'diego.dex@example.com', 'senha123', 'Gratuita');
 
 INSERT INTO Artistas (nome, genero, biografia)
 VALUES 
