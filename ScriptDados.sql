@@ -12,7 +12,10 @@ VALUES
 ('Adele', 'Pop', 'Cantora e compositora britânica.'),
 ('Coldplay', 'Alternative Rock', 'Banda britânica de rock alternativo.'),
 ('Drake', 'Hip Hop', 'Rapper, cantor e compositor canadense.'),
-('Taylor Swift', 'Country', 'Cantora e compositora americana.');
+('Taylor Swift', 'Country', 'Cantora e compositora americana.'),
+('Kendrick Lamar', 'Hip Hop', 'Kendrick Lamar é um renomado rapper e compositor americano.'),
+('NewJeans', 'Kpop', 'NewJeans é uma banda de rock alternativo conhecida por suas letras introspectivas.'),
+('Myslovitz', 'Indie Rock', 'Myslovitz é uma banda de indie rock polonesa, famosa por suas melodias envolventes.');
 
 INSERT INTO Albuns (titulo, data_lancamento, artista_id)
 VALUES 
@@ -30,35 +33,28 @@ VALUES
 ('19', '2008-01-28', 2),
 ('X&Y', '2005-06-06', 3),
 ('Take Care', '2011-11-15', 4),
-('1989', '2014-10-27', 5);
+('1989', '2014-10-27', 5),
+('To Pimp a Butterfly', '2015-03-15', 6),
+('Beyond the Blue', '2022-06-10', 7),
+('Miłość w czasach popkultury', '2006-09-25', 8);
 
 INSERT INTO Musicas (titulo, duracao, album_id, artista_id)
 VALUES 
-('Come Together', '04:19', 1, 1),
-('Hello', '04:55', 2, 2),
-('Adventure of a Lifetime', '04:23', 3, 3),
-('Gods Plan', '03:19', 4, 4),
-('Love Story', '03:55', 5, 5),
-('Let It Be', '04:03', 6, 1),
-('Someone Like You', '04:45', 7, 2),
-('Yellow', '04:26', 8, 3),
-('Hotline Bling', '04:27', 9, 4),
-('I Knew You Were Trouble', '03:39', 10, 5),
-('Help!', '02:18', 11, 1),
-('Chasing Pavements', '03:30', 12, 2),
-('Fix You', '04:55', 13, 3),
-('Marvins Room', '05:47', 14, 4),
-('Shake It Off', '03:39', 15, 5),
-('Yesterday', '02:05', 6, 1),
-('Rolling in the Deep', '03:49', 7, 2),
-('The Scientist', '05:09', 8, 3),
-('One Dance', '02:54', 9, 4),
-('Blank Space', '03:52', 10, 5),
-('Hey Jude', '07:11', 6, 1),
-('Set Fire to the Rain', '04:02', 7, 2),
-('Clocks', '05:07', 8, 3),
-('Too Good', '04:23', 9, 4),
-('Wildest Dreams', '03:40', 10, 5);
+('Wesley\'s Theory', '00:04:47', 16, 6),
+('King Kunta', '00:03:54', 16, 6),
+('These Walls', '00:05:01', 16, 6),
+('u', '00:04:28', 16, 6),
+('Alright', '00:03:39', 16, 6),
+('Dreams', '00:04:12', 17, 7),
+('Echoes', '00:03:56',17, 7),
+('Avalanche', '00:04:28', 17, 7),
+('Starlight', '00:03:45', 17, 7),
+('Beyond the Blue', '00:04:20', 17,7),
+('Długość dźwięku samotności', '00:04:45', 18, 8),
+('Sprzedawcy marzeń', '00:04:10', 18, 8),
+('Sound of Solitude', '00:04:32', 18, 8),
+('Chciałbym umrzeć z miłości', '00:03:55',18, 8),
+('Nocnym pociągiem aż do końca świata', '00:05:12', 18, 8);
 
 INSERT INTO Playlists (nome, usuario_id)
 VALUES 
